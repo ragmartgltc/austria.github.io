@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+body{
+    font-family: 'Nunito' !important;
+
+    margin: 0;
+    padding: 0;
+ 
+    background-color: #ffffff;
+}
+
+
+
+
+h1{
+    color: white;
+    font-size: 2rem !important;
+    
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    color: black;
+    font-size: 2rem !important;
+    padding-left: 20px;
+}
+h3{
+    color: gray;
+    font-size: 1rem !important;
+    font-style: italic;
+    padding-left: 20px;
+
+
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+header nav{
+    background-color: #F23005;
+}
+
+header nav #navbarNav {
+    justify-content: flex-end;
+}
+
+header nav #navbarNav ul li a {
+    color: white;
+}
+
+header nav #navbarNav ul li a:hover {
+    color: #ffffff;
+    font-size: 17px;
+    transition: all .5s linear;
+    background-color: #171c2056;
+    padding: 1 1 1 1;
+
+}
+
+
+.btn-warning {
+    color: #ffffff !important;
+    background-color: #0388A6 !important;
+    border-color: #0378A6 !important;
+}
+
+header .carousel .carousel-item .carousel-caption {
+    bottom: 40%;
+}
+
+header .carousel .carousel-indicators {
+    justify-content: flex-start;
+    bottom: 30%;
+}
+
+header .carousel .carousel-item .carousel-caption h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffe0ba;
+    text-align: left;
+    justify-content: flex-start;
+    text-shadow: 0 0 3px black !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header .carousel .carousel-item .carousel-caption p {
+    font-size: 16px;
+    justify-content: flex-start;
+    text-align: left;
+    text-shadow: 0 0 3px black !important;
+
+}
+
+header nav {
+    position: fixed !important;
+    /*important se salta el otro codigo, para que la barra quede asegurada arriba*/
+    z-index: 20;
+    /*para que este sobre el texto o todas las cosas, como si fueran capas*/
+    width: 100%;
+}
+
+
+
+header .icons_tourists {
+   padding: 	20px;
+}
+
+
+
+
+
+.destacados
+{
+    padding: 30px 20px;
+    text-align: center;
+
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.tarjeta{
+    background-color: #98d9e8;
+    border-radius: 10px;
+    margin: 0.8 rem;
+    width: 25rem;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(34, 34, 34);
+    margin-top: 20px;
+
+}
+
+.tarjeta img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tarjeta h4{
+padding-top: 20px;
+font-weight: 500;
+}
+
+.tarjeta p{
+padding: 40px;
+background-color: white;
+border-radius: 20px;
+}
+.tarjeta .btn{
+    border-color: #0378A6 !important;
+    border: dotted;
+}
+
+#block1{
+    padding-top: 8rem ;
+    padding-bottom: 4rem;
+}
+
+
+#block1 .col-md-3 img
+{
+width: 100% !important;
+}
+
+.tarjetasheader{
+display: flex;
+margin: auto;
+flex-direction: row;
+align-items: center;
+}
+
+.tarjetaheader1
+{
+    width: 600rem;
+    align-content: center;
+}
+
+.tarjetaheader2 p {
+    font-size: 14px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+
+#block2
+{
+    background-color: #063044;
+    padding: 5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#block2 p
+{
+    color: white;
+
+}
+
+
+
+.footer{
+    background-color: red;
+    height: 4rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+    display: flex;
+
+}
+
+@media (min-width: 1200px) {
+    .tarjetasheader{
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        align-items: center;
+        }
+        
+     
+
+}
+
+
+
+
+@media (min-width: 815px) {
+
+    .container{
+        max-width: 100%!important;
+       } 
+    .tarjetasheader{
+        display: flex;
+        margin: auto;
+        flex-direction: row !important;
+        align-items: center;
+
+        }
+    .tarjetaheader1 {
+            width: 50rem !important;
+            align-content: center;
+        }
+    .tarjetaheader2
+    {   
+    width: 50%;
+        font-size: 10px;
+
+    }
+
+.tarjetaheader2 p
+{
+    font-size: 11px;
+}
+
+
+}
+
+
+
+
+
+@media (min-width: 550px) {
+   
+   
+    .tarjetaheader1
+    {
+        width: 50rem !important;
+        align-content: center;
+    }
+      
+
+}
+
+
+@media (min-width: 350px) {
+
+
+    #block1{
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+    
+    .tarjetaheader2 .row 
+    {
+        display: flex;
+        
+        flex-wrap: nowrap;
+
+    }
+    .container{
+        max-width: 100%!important;
+       } 
+       .tarjetasheader{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+
+        }
+        .tarjetaheader1
+        {
+            width: 20rem;
+            align-content: center;
+        }
+        h1 {
+            font-size: 1rem !important;
+        }
+
+        .navbar-brand img {
+            vertical-align: middle;
+            border-style: none;
+            width: 80%;
+        }
+        .navbar-nav .nav-item{
+            display: flex;
+                justify-content: center;
+
+        }
+}
